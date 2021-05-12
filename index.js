@@ -6,8 +6,8 @@ const server = http.createServer((req, res) => {
   var os = require("os");
   var hostname = os.hostname();
   var msg = 'Hello Node! '
-  var res = msg.concat(hostname, 'hi');
-  res.end(res);
+  var result = msg.concat(hostname, 'hi');
+  res.end(result);
 });
 
 server.listen(port, () => {
