@@ -5,8 +5,8 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   var os = require("os");
   var hostname = os.hostname();
-  var msg = 'Hello Node! '
-  var result = msg.concat(hostname, 'hi');
+  var msg = 'Hello Server '
+  var result = msg.concat(hostname, ' how are you!');
   res.end(result);
 });
 
