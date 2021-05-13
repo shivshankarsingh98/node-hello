@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
   var os = require("os");
   var hostname = os.hostname();
   var msg = 'Hello Server '
-  var result = msg.concat(hostname, ' how are you raghu!\n');
+  var result = msg.concat(hostname, ' how are you shiv shankar singh!\n');
   res.end(result);
 });
 
